@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,800";
 /* line 2, _reset.scss */
 * {
   box-sizing: border-box; }
@@ -49,7 +49,7 @@ table {
 
 /* line 29, _vars.scss */
 body {
-  content: 102rem; }
+  content: 990px; }
 
 /* line 1, _global.scss */
 html {
@@ -102,11 +102,11 @@ a {
     justify-content: center; }
   /* line 15, components/_c-body.scss */
   .c-body--container {
-    width: 102rem;
+    width: 990px;
     display: flex;
     flex-direction: column;
     margin-top: 8rem; }
-    @media screen and (min-width: 102rem) {
+    @media screen and (min-width: 990px) {
       /* line 15, components/_c-body.scss */
       .c-body--container {
         margin-top: 20rem; } }
@@ -132,21 +132,21 @@ a {
     /* line 22, components/_c-nav.scss */
     .c-nav--contents img {
       transform: scale(0.5); }
-      @media screen and (min-width: 102rem) {
+      @media screen and (min-width: 990px) {
         /* line 22, components/_c-nav.scss */
         .c-nav--contents img {
           transform: scale(1); } }
-    @media screen and (min-width: 102rem) {
+    @media screen and (min-width: 990px) {
       /* line 30, components/_c-nav.scss */
       .c-nav--contents.active {
         height: 8rem; }
         /* line 35, components/_c-nav.scss */
         .c-nav--contents.active img {
           transform: scale(0.8); } }
-    @media screen and (min-width: 102rem) {
+    @media screen and (min-width: 990px) {
       /* line 10, components/_c-nav.scss */
       .c-nav--contents {
-        width: 102rem;
+        width: 990px;
         height: 15rem;
         padding-left: 1rem;
         padding-right: 1rem; } }
@@ -162,7 +162,7 @@ a {
   margin-left: 2rem;
   margin-right: 2rem;
   padding-bottom: 4rem; }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 1, components/_c-about.scss */
     .c-about,
     .c-contact {
@@ -188,7 +188,7 @@ a {
   display: flex;
   flex-direction: column;
   margin-top: 2rem; }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 31, components/_c-about.scss */
     .c-contact {
       flex-direction: row;
@@ -196,11 +196,11 @@ a {
   /* line 41, components/_c-about.scss */
   .c-contact--image {
     margin-bottom: 2rem; }
-    @media screen and (min-width: 102rem) {
+    @media screen and (min-width: 990px) {
       /* line 41, components/_c-about.scss */
       .c-contact--image {
         margin-right: 5rem; } }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 48, components/_c-about.scss */
     .c-contact--info {
       margin-right: 5rem; } }
@@ -221,7 +221,7 @@ a {
   padding-right: 1rem;
   transition: height 0.2s;
   border-top: 1px solid #444444; }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 1, components/_c-footer.scss */
     .c-footer {
       height: 6rem;
@@ -249,7 +249,7 @@ a {
   position: relative;
   margin: 0;
   padding: 0; }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 14, components/_c-slider.scss */
     .unslider {
       position: static; } }
@@ -257,7 +257,7 @@ a {
 /* line 22, components/_c-slider.scss */
 .unslider-wrap {
   position: relative; }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 25, components/_c-slider.scss */
     .unslider-wrap li {
       padding: 0 1rem !important; } }
@@ -310,7 +310,7 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center; }
-  @media screen and (min-width: 102rem) {
+  @media screen and (min-width: 990px) {
     /* line 61, components/_c-slider.scss */
     .unslider-arrow {
       height: 74.5%; } }
