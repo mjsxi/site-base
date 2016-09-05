@@ -1,0 +1,7 @@
+// breakpoint
+
+@mixin bp($point) {
+  @media screen and (min-width: #{$point}) {
+    @content;
+  }
+}

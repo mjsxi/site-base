@@ -1,0 +1,53 @@
+.c-nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background: rgba( $color-white, 1 );
+  width: 100vw;
+  z-index: 999;
+
+  &--contents {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    height: 5rem;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    transition: height $default-duration;
+
+    img {
+      transform: scale(.5);
+
+      @include bp($breakpoint) {
+        transform: scale(1);
+      }
+    }
+
+    &.active {
+
+      @include bp($breakpoint) {
+        height: 8rem;
+
+        img {
+          transform: scale(.8);
+        }
+      }
+    }
+
+    @include bp($breakpoint) {
+      width: $wrapper-width;
+      height: 15rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+  }
+
+  &--name {
+    margin-right: auto;
+  }
+}

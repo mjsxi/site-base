@@ -1,0 +1,62 @@
+.c-about,
+.c-contact {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+  padding-bottom: 4rem;
+
+  @include bp($breakpoint) {
+    margin-left: 12rem;
+    margin-right: 12rem;
+
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+}
+
+.c-about {
+  border-bottom: 1px solid $color-text;
+}
+
+.c-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+
+  @include bp($breakpoint) {
+    flex-direction: row;
+    margin-top: 5rem;
+  }
+
+  &--image {
+    margin-bottom: 2rem;
+    @include bp($breakpoint) {
+      margin-right: 5rem;
+    }
+  }
+
+  &--info {
+    @include bp($breakpoint) {
+      margin-right: 5rem;
+    }
+
+    &-container {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin-bottom: 0rem;
+    }
+  }
+}

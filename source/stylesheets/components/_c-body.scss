@@ -1,0 +1,26 @@
+.c-body {
+  font-family: $font-family--base;
+  color: $color-text;
+  font-size: $font-copy;
+
+  background-color: $color-white;
+
+  &--wrapper {
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  &--container {
+    width: $wrapper-width;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 8rem;
+
+    @include bp($breakpoint) {
+      margin-top: 20rem;
+    }
+  }
+}

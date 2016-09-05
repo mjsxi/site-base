@@ -1,0 +1,36 @@
+html {
+  font-size: $font-base-size;
+}
+
+img {
+  width: 100%;
+  transition: transform $default-duration;
+}
+
+h2 {
+  font-size: $font-heading;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-size: $font-copy;
+  font-weight: 700;
+  line-height: 3.5rem;
+  border-bottom: 3px solid $color-text;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: $font-copy;
+  line-height: 2.5rem;
+}
+
+a {
+  color: $color-text;
+  text-decoration: none;
+  transition: color $default-duration;
+  &:hover {
+    color: $color-text--hover;
+  }
+}

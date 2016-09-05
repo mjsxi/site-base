@@ -1,0 +1,31 @@
+// colors
+
+$color-white:               #fffffa;
+$color-text:                #444444;
+$color-text--bold:          #4f4f4f;
+$color-text--link:          #9B59B6;
+$color-text--hover:         #949494;
+
+// typography
+
+$font-base-size:            62.5%; //only apply to body
+$font-copy:                 1.8rem;
+$font-heading:              3.4rem;
+
+$font-family--base:         'Open Sans', sans-serif;
+
+// animations
+
+$default-duration:          0.2s;
+
+// page wrapper
+
+$wrapper-width:             102rem;
+
+// breakpoints
+
+$breakpoint:                102rem;
+
+body{
+  content: $breakpoint;
+}

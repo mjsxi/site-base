@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title%></title>
+    <meta name="description" content="<%= current_page.data.description%>">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <%= stylesheet_link_tag :site %>
+  </head>
+
+  <body class="c-body">
+    <%= partial "partials/_nav" %>
+    <div class="c-body--wrapper">
+      <div class="c-body--container">
+        <%= yield %>
+        <%= partial "partials/_footer" %>
+      </div>
+    </div>
+    <%= javascript_include_tag :all %>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.c-footer {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  transition: height $default-duration;
+
+  border-top: 1px solid $color-text;
+
+  @include bp($breakpoint) {
+    height: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
