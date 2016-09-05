@@ -349,13 +349,13 @@ a {
 .arrow-back {
   height: 30px;
   width: 40px;
-  background-image: url("/images/next.svg");
+  background-image: url("../images/next.svg");
   background-repeat: no-repeat;
   background-size: contain; }
 
 /* line 111, components/_c-slider.scss */
 .arrow-back {
-  background-image: url("/images/prev.svg");
+  background-image: url("../images/prev.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right; }
