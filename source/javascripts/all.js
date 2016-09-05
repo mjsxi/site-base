@@ -71,7 +71,7 @@ $(function(){
       delay: 3000,
 
       //  Animation speed in millseconds
-      speed: 750,
+      speed: 300,
 
       //  An easing string to use. If you're using Velocity, use a
       //  Velocity string otherwise you can use jQuery/jQ UI options.
