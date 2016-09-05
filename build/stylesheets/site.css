@@ -63,13 +63,13 @@ img {
 /* line 10, _global.scss */
 h2 {
   font-size: 3.4rem;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 4.5rem; }
 
 /* line 16, _global.scss */
 h3 {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 3.5rem;
   border-bottom: 3px solid #444444;
   margin-bottom: 2rem; }
