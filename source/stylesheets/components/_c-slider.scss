@@ -71,6 +71,9 @@
   @include bp($breakpoint) {
     height: 74.5%;
   }
+  @media (max-width: $breakpoint) {
+    top: 0px;
+  }
 }
 .unslider-arrow.next {
   justify-content: flex-end;
@@ -121,8 +124,29 @@
   }
 }
 
-
-
+@media (max-width: $breakpoint) {
+  .gallery {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    -webkit-scroll-snap-type: mandatory;
+    -webkit-scroll-snap-points-x: repeat(100%);
+    -webkit-scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    -ms-scroll-snap-type: mandatory;
+    -ms-scroll-snap-points-x: repeat(100%);
+    -ms-scroll-behavior: smooth;
+    -ms-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-x: repeat(100%);
+    scroll-behavior: smooth;
+    overflow-scrolling: touch;
+    li {
+      display: inline;
+    }
+  }
+}
 
 
 

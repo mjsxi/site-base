@@ -686,8 +686,16 @@ $(function(){
 
 }));
 
+function screenClass() {
+  if($(window).innerWidth() > 990) {
+    $('.c-slider').unslider();
+  }
+}
 
-jQuery(document).ready(function($) {
-  $('.c-slider').unslider();
+// Fire.
+screenClass();
+
+// And recheck if window gets resized.
+$(window).bind('resize',function(){
+  screenClass();
 });
-

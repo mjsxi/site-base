@@ -1,6 +1,10 @@
 .c-project {
   //position: relative;
-  //margin-bottom: 1rem;
+  margin-bottom: 2rem;
+
+  @include bp($breakpoint) {
+    margin-bottom: 0rem;
+  }
 
   &--container {
 

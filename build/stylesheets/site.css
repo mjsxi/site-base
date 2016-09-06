@@ -154,6 +154,14 @@ a {
   .c-nav--name {
     margin-right: auto; }
 
+/* line 1, components/_c-project.scss */
+.c-project {
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 990px) {
+    /* line 1, components/_c-project.scss */
+    .c-project {
+      margin-bottom: 0rem; } }
+
 /* line 1, components/_c-about.scss */
 .c-about,
 .c-contact {
@@ -314,19 +322,23 @@ a {
     /* line 61, components/_c-slider.scss */
     .unslider-arrow {
       height: 74.5%; } }
+  @media (max-width: 990px) {
+    /* line 61, components/_c-slider.scss */
+    .unslider-arrow {
+      top: 0px; } }
 
-/* line 75, components/_c-slider.scss */
+/* line 78, components/_c-slider.scss */
 .unslider-arrow.next {
   justify-content: flex-end;
   left: auto;
   right: 0px; }
 
-/* line 81, components/_c-slider.scss */
+/* line 84, components/_c-slider.scss */
 .unslider-nav ol {
   list-style: none;
   text-align: center; }
 
-/* line 85, components/_c-slider.scss */
+/* line 88, components/_c-slider.scss */
 .unslider-nav ol li {
   display: inline-block;
   width: 6px;
@@ -339,12 +351,12 @@ a {
   border: 2px solid #fff;
   cursor: pointer; }
 
-/* line 97, components/_c-slider.scss */
+/* line 100, components/_c-slider.scss */
 .unslider-nav ol li.unslider-active {
   background: #fff;
   cursor: default; }
 
-/* line 102, components/_c-slider.scss */
+/* line 105, components/_c-slider.scss */
 .arrow-next,
 .arrow-back {
   height: 30px;
@@ -353,13 +365,36 @@ a {
   background-repeat: no-repeat;
   background-size: contain; }
 
-/* line 111, components/_c-slider.scss */
+/* line 114, components/_c-slider.scss */
 .arrow-back {
   background-image: url("../images/prev.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right; }
 
-/* line 119, components/_c-slider.scss */
+/* line 122, components/_c-slider.scss */
 .c-slider--text {
   padding: 1rem 2rem; }
+
+@media (max-width: 990px) {
+  /* line 128, components/_c-slider.scss */
+  .gallery {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    -webkit-scroll-snap-type: mandatory;
+    -webkit-scroll-snap-points-x: repeat(100%);
+    -webkit-scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    -ms-scroll-snap-type: mandatory;
+    -ms-scroll-snap-points-x: repeat(100%);
+    -ms-scroll-behavior: smooth;
+    -ms-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-x: repeat(100%);
+    scroll-behavior: smooth;
+    overflow-scrolling: touch; }
+    /* line 145, components/_c-slider.scss */
+    .gallery li {
+      display: inline; } }
