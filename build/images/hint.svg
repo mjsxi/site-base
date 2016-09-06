@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="94px" height="130px" viewBox="0 0 94 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>next</title>
+    <title>Triangle</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="next" stroke="#444444" stroke-width="11" fill="#444444" transform="translate(45.000000, 65.000000) rotate(180.000000) translate(-45.000000, -65.000000) " points="84 119 6 65 84 11"></polygon>
+        <polygon id="Triangle" stroke="#FFFFFF" stroke-width="11" fill="#FFFFFF" points="88 119 10 65 79.8964678 16.6101377 88 11"></polygon>
     </g>
 </svg>

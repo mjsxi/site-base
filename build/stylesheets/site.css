@@ -239,6 +239,36 @@ a {
   .c-footer p {
     font-size: 1.2rem; }
 
+/* line 1, components/_c-hint.scss */
+.c-hint {
+  position: absolute;
+  width: 8%;
+  top: 26%;
+  right: 0;
+  transform: translateX(-10vw);
+  opacity: 0;
+  z-index: -999;
+  animation-name: hint;
+  animation-duration: 1s;
+  animation-iteration-count: 1; }
+
+@keyframes hint {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+    z-index: 999; }
+  15% {
+    transform: translateX(-10vw);
+    opacity: 0.5;
+    z-index: 999; }
+  85% {
+    transform: translateX(-80vw);
+    opacity: 0.5;
+    z-index: 999; }
+  100% {
+    transform: translateX(-80vw);
+    opacity: 0;
+    z-index: 999; } }
 /**
  *   Here's where everything gets included. You don't need
  *   to change anything here, and doing so might break
