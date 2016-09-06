@@ -120,7 +120,43 @@
 
 .c-slider {
   &--text {
-    padding: 1rem 2rem;
+    @media (min-width: $breakpoint) {
+      position: absolute;
+      padding: 1rem 2rem;
+      background: rgba( $color-white, .7 );
+      top: 0;
+      right: 0;
+      left: 0;
+      padding-bottom: 52.5%;
+      opacity: 0;
+      transition: opacity $default-duration;
+    }
+  }
+
+  &--info {
+    display: none;
+    @media (min-width: $breakpoint) {
+      display: block;
+      position: absolute;
+      right: 2.75rem;
+      top: 56rem;
+      width: .75%;
+      z-index: 999;
+    }
+  }
+
+  &--info:hover + &--text {
+    @media (min-width: $breakpoint) {
+      opacity: 1;
+      z-index: 9999;
+    }
+  }
+
+  &--text:hover {
+    @media (min-width: $breakpoint) {
+      opacity: 1;
+      z-index: 9999;
+    }
   }
 }
 
